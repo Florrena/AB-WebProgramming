@@ -9,9 +9,6 @@ include 'header.php'; ?>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolores unde maiores voluptates ullam sint ipsam suscipit maxime veniam optio qui quasi ratione ab facere, facilis temporibus assumenda modi minima.</p>
         </div>
 
-
-
-
 </body>
 <?php include 'footer.php'; ?>
-</html>
+
