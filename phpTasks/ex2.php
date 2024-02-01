@@ -1,11 +1,7 @@
 <?php 
 $title = 'TASK 2';
 include 'header.php'; ?>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 2: Create universal header, footer, or sidebar as per your layout done in the previous course.</title>
-</head>
+
 <body>
 
         <div class="article"> 

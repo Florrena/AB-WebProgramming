@@ -1,5 +1,6 @@
 
 <footer class="footer-container">
+
         <section class="col-1">
             <p>QUICK LINKS</p>
             <nav>
@@ -40,14 +41,16 @@
                 </ul>  
             </nav>
         </section>
-        <section class="col-4">
-        <?php
+
+	<section class="col-4">
+
+	<?php
         $filePath = $_SERVER['SCRIPT_FILENAME']; 
         $fileName = basename($filePath);
         $lastModified = filemtime($filePath); 
 
-        echo "$fileName was last Modified On: " . date("F d, Y H:i:s", $lastModified);
+        echo "$fileName was last modified on: " . date("F d, Y H:i:s", $lastModified);
         ?>
-        </div>
-        </section>
+	</section>
+
     </footer>
