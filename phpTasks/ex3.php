@@ -98,7 +98,7 @@ echo "The sum of $num1, $num2, and $num3 is: $sum";
 </div>
 </body>
 
-<!-- styles for bootstrap so its not destroying the look of the page -->
+<!-- styles for bootstrap so its not destroying the look of the page :( -->
 <style>
     body{
         background-color: #D9D9D9;
