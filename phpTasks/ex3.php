@@ -56,7 +56,8 @@ include 'header.php'; ?>
     </tr>
     <tr class="table-primary">
       <th scope="row">3</th>
-      <td colspan="2">Floczka</td>
+      <td>Floczka</td>
+      <td>Yori</td>
       <td>@discord</td>
     </tr>
   </tbody>
