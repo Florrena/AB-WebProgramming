@@ -41,11 +41,13 @@
             </nav>
         </section>
         <section class="col-4">
-            <?php
-            $filename = 'ex3.php';
-            echo "LAST MODIFIED ON: " . date ("F d Y H:i:s.", filemtime($filename));
-        
-            ?>
+        <?php
+        $filePath = $_SERVER['SCRIPT_FILENAME']; 
+        $fileName = basename($filePath);
+        $lastModified = filemtime($filePath); 
+
+        echo "$fileName was last Modified On: " . date("F d, Y H:i:s", $lastModified);
+        ?>
         </div>
         </section>
     </footer>

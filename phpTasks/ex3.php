@@ -111,3 +111,4 @@ echo "The sum of $num1, $num2, and $num3 is: $sum";
 </style>
 
 <?php include 'footer.php'; ?>
+</html>
