@@ -3,10 +3,14 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
-
-
+.bootstrap-form {
+    
+    max-width: 100px; 
+    margin: auto;
+}
 /* Header */
 
 
@@ -131,8 +135,10 @@ body {
 
 }
 
-h2{
-    padding-bottom:10px;
+
+
+h2 {
+    padding-bottom: 10px;
 
 }
 
@@ -186,51 +192,23 @@ article{
 /* Footer */
 
 
-
 .footer-container {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    padding: 0;
-    display: flex;
-    flex-direction: row;
     background-color: #30333A;
-    margin: 0;
-    width: 100%;
-    padding-top: 30px; 
-    padding-bottom: 30px; 
-    box-sizing: border-box;
-    border-top: none;
+    color: white;
+    padding: 30px 0;
+    width: 100% !important; 
 }
 
 .footer-container .col-1,
 .footer-container .col-2,
 .footer-container .col-3,
 .footer-container .col-4 {
-    flex: 1;
-    justify-content: space-between;
-    padding: 30px;
-    padding-left: 70px;
+    padding: 0;
     text-align: left;
     margin: 0;
 }
 
-.footer-container .col-2 {
-    padding-left: 0;
-}
-
-.footer-container .col-3 {
-    padding-right: 0;
-}
-
-.footer-container .col-4 {
-    flex: 1;
-    padding-left: 0;
-}
-
 .footer-container nav ul {
-    font-family: 'Lato', sans-serif;
     list-style-type: none;
     font-size: 13px;
     margin: 0;
@@ -240,7 +218,7 @@ article{
 .footer-container nav a,
 .footer-container nav a:visited,
 .footer-container nav a:active {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 }
 
@@ -251,10 +229,12 @@ article{
 
 .footer-container img {
     width: 150px;
-    padding-top: 30px;
-    height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.footer-container p {
+    margin-bottom: 0;
 }
 
 
@@ -290,6 +270,7 @@ article{
 }
 
 .grid-container {
+    
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px; 

@@ -41,8 +41,11 @@
             </nav>
         </section>
         <section class="col-4">
-            <div class="image">
-                <a href="home.html"><img src="images/logo-2.png"></a>
-            </div>
+            <?php
+            $filename = 'ex3.php';
+            echo "LAST MODIFIED ON: " . date ("F d Y H:i:s.", filemtime($filename));
+        
+            ?>
+        </div>
         </section>
     </footer>
