@@ -4,7 +4,8 @@ include 'header.php'; ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <title>Exercise 3: Variable, Strings & Operators</title>
 </head>
 <body>
 <div class="container">
@@ -33,7 +34,7 @@ include 'header.php'; ?>
         <h2> 3.4 HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. Note, you have already done a table in Exercise 1. If you wish, you can use the same table.</h2>
         <table class="table">
   <thead>
-    <tr>
+    <tr class="table-primary">
       <th scope="col">#</th>
       <th scope="col">First name</th>
       <th scope="col">Last name</th>
@@ -41,19 +42,19 @@ include 'header.php'; ?>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="table-primary">
       <th scope="row">1</th>
       <td>Anna</td>
       <td>Barcikowska</td>
       <td>@outlook</td>
     </tr>
-    <tr>
+    <tr class="table-primary">
       <th scope="row">2</th>
       <td>Matti</td>
       <td>Thornton</td>
       <td>@gmail</td>
     </tr>
-    <tr>
+    <tr class="table-primary">
       <th scope="row">3</th>
       <td colspan="2">Floczka</td>
       <td>@discord</td>
