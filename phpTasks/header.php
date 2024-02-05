@@ -23,9 +23,7 @@
                 <li><a href="ex2.php">TASK 2</a></li>
                 <li><a href="ex3.php">TASK 3</a></li>
                 <li><a href="ex4.php">TASK 4</a></li>
-                <li><a href="#">TASK 5</a></li>
-                <li><a href="#">TASK 6</a></li>
-                <li><a href="#">TASK 7</a></li>
+                <li><a href="ex7.php">TASK 7</a></li>
             </ul>
         </nav>
     </div>
