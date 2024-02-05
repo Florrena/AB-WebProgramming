@@ -81,13 +81,13 @@ include 'header.php'; ?>
     <br>
     <h2>4.6 Foreach Loop: Write a PHP script that will print all the elements of an array. </h2>
     <?php
-        $catArray = array("Cat1", "Cat2", "Cat3", "Cat4", "Cat5");
+        $myarray=array("HTML", "CSS", "PHP", "JavaScript");
 
-        foreach ($catArray as $element) {
+        foreach ($myarray as $element) {
             echo $element . "<br>";
         }
-    ?>
-    </div>
+    ?>    
+</div>
 </div>
 
 
