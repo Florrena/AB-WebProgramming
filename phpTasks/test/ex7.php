@@ -1,30 +1,30 @@
 <?php 
 $title = 'TASK 7';
-include 'header.php'; ?>
+include('/var/www/html/phpTasks/header.php'); ?>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/phpTasks/style.css">
     <title>Exercise 7: CRUD APP</title>
 </head>
-<body> 
+
+
 <div class="container">
 
     <div class="article"> 
 
-
         <h2>Input Your Information Below:</h2>
-        <form name="form1" method="post" action="process2.php">
+        <form name="form1" method="post" action="/phpTasks/test/process2.php">
             <div class="form-group">
                 <div class="row">
                     <div class="col">
                         <label for="fname">First Name:</label>
                         <input type="text" class="form-control" id="fname" placeholder="Enter your first name" name="fname" required>
-                    </div>
+                    </div><br>
                     <div class="col">
                         <label for="lname">Last Name:</label>
                         <input type="text" class="form-control" id="lname" placeholder="Enter your last name" name="lname" required>
                     </div>
+                    <br>
                 </div>
             </div>
             <div class="form-group">
@@ -32,7 +32,7 @@ include 'header.php'; ?>
                     <div class="col">
                         <label for="city">City:</label>
                         <input type="text" class="form-control" id="city" placeholder="Enter your city" name="city" required>
-                    </div>
+                    </div><br>
                     <div class="col">
                         <label for="groupid">Group ID:</label>
                         <select class="form-control" id="groupid" name="groupid">
@@ -50,7 +50,7 @@ include 'header.php'; ?>
         </form>
     </div>
 </div>
-</body>
+
 <style>
         h2 {
         font-family: 'Lato', 'sans-serif';
@@ -64,5 +64,4 @@ include 'header.php'; ?>
         }
     </style>
 
-<?php include 'footer.php'; ?>
-</html>
+<?php include '/var/www/html/phpTasks/footer.php'; ?>
