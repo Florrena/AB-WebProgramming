@@ -1,3 +1,12 @@
+<?php 
+$title = 'TASK 7';
+include '/var/www/html/phpTasks/header.php'; ?>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="/phpTasks/style.css">
+    <title>Exercise 7: CRUD APP</title>
+</head>
+<div class="article">
 <?php
 // Check if the 'submit' button in the form was clicked
 if (isset($_POST['submit'])) {
@@ -11,7 +20,7 @@ if (isset($_POST['submit'])) {
     include 'db.php';
 
     // Define an SQL query to insert data into the 'studentsinfo' table
-    $sql = "INSERT INTO studentsinfo (fname, lname, groupid, city)
+    $sql = "INSERT INTO studentsinfo (fname, lname, city, groupid)
             VALUES ('$fname', '$lname', '$city', '$groupid')";
 
     // Execute the SQL query using the database connection
@@ -27,3 +36,5 @@ if (isset($_POST['submit'])) {
     $conn->close();
 }
 ?>
+</div>
+<?php include '/var/www/html/phpTasks/footer.php'; ?>

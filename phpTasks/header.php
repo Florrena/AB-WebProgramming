@@ -25,6 +25,8 @@
                 <li><a href="/phpTasks/ex4.php">TASK 4</a></li>
                 <li><a href="/phpTasks/ex5.php">TASK 5</a></li>
                 <li><a href="/phpTasks/test/ex7.php">TASK 7</a></li>
+                <li><a href="/phpTasks/test/ex71.php">TASK 7.1</a></li>
+
             </ul>
         </nav>
     </div>
