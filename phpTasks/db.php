@@ -1,5 +1,5 @@
 <?php
-$servername = "shell.hamk.fi"; // Replace with your MySQL server hostname
+$servername = "localhost"; // Replace with your MySQL server hostname
 $username = "anna23021";     // Replace with your MySQL username
 $password = "dMfcUNbs";     // Replace with your MySQL password
 $dbname = "wp_anna23021";       // Replace with the name of your MySQL database
